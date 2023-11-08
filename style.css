@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#tick{
+    width: 20px;
+    height: auto;
+    background-image: url("/New\ folder/svgexport-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #cd505a;
+}
+
+.header-wandy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: #F5F0EB;
+    flex-direction: column;
+}
+
+.header-wandy .welcome img {
+    width: 85vw;
+    height: 100%;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90.5%;
+    align-items: center;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+}
+
+.sub-header .logo img {
+    width: 2.5vw;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 15vh;
+    position: absolute;
+    top: 500px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.paras {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.email {
+    padding: 0 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.email p {
+    margin-top: 20px;
+}
+
+#mes {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.container {
+    background-color: #F5F0EB;
+    padding: 50px 14%;
+    width: 100%;
+
+}
+
+.about_me {
+    padding: 100px 0;
+}
+
+.about_me p {
+    line-height: 30px;
+    color: #444346;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about_me a {
+    color: #444346;
+}
+
+.portfolio h3 {
+    color: #444346;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.portfolio .portfolio_pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.portfolio .portfolio_pic img {
+    margin: 10px 0;
+}
+
+.events {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 70px 0 100px 0;
+}
+
+.events .first {
+    margin-bottom: 20px;
+}
+
+.events .first h3 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    color: #444346;
+    margin-bottom: 15px;
+
+}
+
+.events .second h3 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    color: #444346;
+    margin-bottom: 15px;
+}
+
+.events .first h4 {
+    color: #444346;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.events .second h4 {
+    color: #444346;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.events .second a {
+    color: #444346;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+footer .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    margin-bottom: 10px;
+}
+
+.letst {
+    color: #444346;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.mess {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 5px;
+}
+
+footer .second {
+    font-size: 14px;
+    color: #444346;
+    text-align: center;
+    margin-top: 10px;
+}
